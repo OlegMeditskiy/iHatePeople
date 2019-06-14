@@ -3,7 +3,7 @@ import {Component} from 'react';
 import { withScriptjs, withGoogleMap, GoogleMap, Marker, Polyline } from "react-google-maps"
 
 const decodedPolyline =  require('decode-google-map-polyline') 
-const apiKey = process.env.GOOGLE_API_KEY
+const apiKey = process.env.REACT_APP_GOOGLE_API_KEY
 
 
 /* let departue1 = new cordinator(route.departuePlace.lat, route.departuePlace.Ing)
