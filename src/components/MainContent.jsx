@@ -403,8 +403,6 @@ class MainContent extends Component {
                   </tbody>
                 </table>
 
-
-
               </div>
 
               <div id={`collapse${indexRouteR}`} class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
@@ -419,22 +417,6 @@ class MainContent extends Component {
         </section>
       </div>
         
-        )
-
-
-                  </div>
-
-                  <div id={`collapses${indexRouteR}`} class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                    <div class="card-body">
-
-                      <Maps children={route.segments} places={placeType} />
-                      {this.getSegments(route, vehicleType, placeType)}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
         )
       })
       : null
