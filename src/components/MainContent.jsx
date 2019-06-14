@@ -12,7 +12,7 @@ require('dotenv').config();
 console.log(process.env);
 /* lägg form i hela */
 
-const key = process.env.REACT_APP_ROME_2_RIO_KEY
+const key = process.env.ROME_2_RIO_KEY
 class MainContent extends Component {
   constructor(props) {
     super(props)
